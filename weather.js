@@ -5,8 +5,8 @@ document.getElementById('searchBtn').addEventListener('click', function() {
 
 function fetchWeather(city = '') {
   // 接口基础地址
-  const appid = '';
-  const appsecret = '';
+  const appid = '56761788';
+  const appsecret = 'ti3hP8y9';
   let url = `https://www.tianqiapi.com/free/day?appid=${appid}&appsecret=${appsecret}`;
   if (city) {
     url += `&city=${encodeURIComponent(city)}`;
